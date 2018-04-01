@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<form method="post" id="cContato" action="mailto:rafaelroujo@yahoo.com.br">
+		<fieldset id="usuario"><legend><h1>Indentificação do usuário</h1></legend>
+			<p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Apenas primeiro nome"></p>
+			<p><label for="cSobrenome">Sobrenome:</label> <input type="text" name="tSobrenome" id="cSobrenome" size="30" maxlength="30" placeholder="Nome de guerra"></p>
+			<p><label for="cNasc">Data de Nascimento: </label><input type="date" name="tNasc" id="cNasc"></p>
+			<p><label for="cInd">Identidade:</label><input type="text" name="tInd" id="cInd" size="30" maxlength="30" placeholder="MG16987605"></p>
+			<p><label for="cCpf">CPF:</label><input type="text" name="tCpf" id="cCpf" maxlength="14" placeholder="08552396600" ></p>
+			<fieldset id="Sexo"><legend>Sexo</legend>
+				<input type="radio" name="tSexo" id="cMasc"><label for="cMasc">Masculino</label><br>
+				<input type="radio" name="tSexo" id="cFem"><label for="cFem">Femenino</label>
+			</fieldset>
+			<fieldset id="estado-civil"><legend>Estado Civil</legend>
+				<input type="radio" name="tEstado-civil" id="cSolt"><label for="cSolt">Solteiro</label><br>
+				<input type="radio" name="tEstado-civil" id="cCasado"><label for="cCasado">casado</label>
+			</fieldset>
+			<p><label for="cTel">Telefone:</label><input type="tel" name="tTel" id="cTel" size="30" maxlength="8" placeholder="35222596"></p>
+			<p><label for="cTel1">Telefone:</label><input type="tel" name="tTel1" id="cTel1" size="30" maxlength="9" placeholder="994264013"></p>
+			<p><label for="cEmail">E-mail</label><input type="email" name="tEmail" id="cEmail" size="30" maxlength="30" placeholder="exemplo@gmail.com"></p>
+			<fieldset id="endereco"><legend>Endereço</legend>
+				<p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="30" maxlength="30" placeholder="Cidade ..."> </p>
+				<p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="30" maxlength="30" placeholder="Av, Rua ..."> </p>
+				<p><label for="cNum">Numero:</label><input type="number" name="tNum" id="cNum" min="0" max="9999" ></p>
+				<p><label for="cEst">Estado:</label>
+					<select name="tEst" id="cEst">
+						<option>Minas Gerais</option>
+						<option>São Paulo</option>
+						<option>Rio de Janeiro</option>
+						<option>Maranhão</option>
+						<option>Pernambuco</option>
+						<option>Acre</option>
+						<option>Alagoas</option>
+						<option>Pará</option>
+
+					</select>
+
+				</p>
+
+
+			</fieldset>
+
+
+
+
+
+		</fieldset>
+	</form>
+
+</body>
+</html>
